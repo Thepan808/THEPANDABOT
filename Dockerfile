@@ -1,9 +1,9 @@
-FROM teamlegend/legendbot:latest
+FROM teamkrishna/krishnabot:latest
 
-RUN git clone https://github.com/LEGEND-OS/LEGENDUSERBOT.git ./LEGENDUSERBOT
+RUN git clone https://github.com/Thepan808/THEPANDAUSERBOT.git ./THEPANDAUSERBOT
 RUN pip install --upgrade pip
-RUN pip3 install -r ./LEGENDUSERBOT/requirements.txt
+RUN pip3 install -r ./THEPANDAUSERBOT/requirements.txt
 
-WORKDIR ./LEGENDUSERBOT
+WORKDIR ./THEPANDAUSERBOT
 
 CMD ["python3", "-m", "userbot"]
