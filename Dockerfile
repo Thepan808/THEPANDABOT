@@ -1,4 +1,4 @@
-FROM teampanda/thepanbot:latest
+FROM teampanda/thepandabot:latest
 
 RUN git clone https://github.com/Thepan808/THEPANDAUSERBOT.git ./THEPANDAUSERBOT
 RUN pip install --upgrade pip
