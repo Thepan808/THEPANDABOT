@@ -39,7 +39,7 @@ _set_bot () {
     cd $LEGENDPATH
     echo "    • Starting Lêɠêɳ̃dẞøt 3.0•    "
     echo "
-    LEGENDBOT
+    THEPANDABOT
     "
 
     python3 ../setup/updater.py ../requirements.txt requirements.txt
